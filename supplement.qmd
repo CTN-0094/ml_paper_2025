@@ -1,0 +1,36 @@
+---
+title: "This is only a test"
+date: last-modified
+---
+
+
+```{r}
+#| echo: false
+
+library(tidyverse)
+library(palmerpenguins)
+library(lorem)
+
+save(penguins, file = 'data/penguins.rds')
+```
+
+
+```{r}
+#| echo: false
+ipsum(2)
+```
+
+```{r}
+#| echo: false
+head(penguins)
+```
+
+```{r}
+#| echo: false
+ipsum(2)
+```
+
+```{r}
+#| echo: false
+plot(iris)
+```

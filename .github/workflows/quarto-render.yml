@@ -1,0 +1,36 @@
+name: Render and Deploy Quarto Site
+
+# Only deploy when docs/ folder changes (local rendering workflow)
+on:
+  push:
+    paths:
+      - 'docs/**'
+    branches: 
+      - main
+
+permissions:
+  contents: write    # Allows action to read repo and write to gh-pages
+  pages: write       # Allows deploying to GitHub Pages
+  id-token: write    # Required for GitHub's OIDC authentication
+
+# Prevent concurrent deployments
+concurrency:
+  group: "pages"                # Groups deployments under "pages" 
+  cancel-in-progress: false     # Don't cancel running deployments
+
+jobs:
+  deploy-only:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+        
+    - name: Upload to GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: docs
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

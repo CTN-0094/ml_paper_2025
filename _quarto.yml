@@ -1,0 +1,40 @@
+project:
+  type: default
+  output-dir: docs
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    code-fold: true
+    code-summary: "Show code"
+    code-line-numbers: true
+    fig-width: 8
+    fig-height: 6
+    embed-resources: true
+    
+# Enhanced security exclusions
+project-exclude:
+  - "supplement_misc/"
+  - "*.Rproj"
+  - ".Rproj.user/"
+  - "development/"
+  - "output/"
+  - "data/"
+  - "*.rds"
+  - "*.RDS"
+  - "*.rda"
+  - "*.RDA"
+  - "*.sas7bdat"
+  - "*.xlsx"
+  - "*.csv"
+  - "!variablesTable.csv"
+  - "README.md"
+
+execute:
+  freeze: auto  # Only re-execute code when source changes
+  cache: true   # Cache computational results
+  warning: false
+  message: false
