@@ -1,3 +1,3 @@
 # CTN-0094 Modeling Repo
 
-placeholder for full ML pipeline 
+The full modeling workflow will be [here]() once the paper is accepted.
