@@ -1,3 +1,18 @@
-# CTN-0094 Modeling Repo
+# Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder
 
-The full modeling workflow will be [here]() once the paper is accepted.
+## Web Supplement and Technical Reference
+
+This repository contains the web supplement and technical reference materials for the manuscript "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder" by Raymond R. Balise, Kyle Grealis, Guertson Jean-Baptiste, and the CTN-0094 Team.
+
+## Contents
+
+- **Web Supplement** - Supplementary analyses, figures, and tables: [`docs/supplement.html`](docs/supplement.html)
+- **Technical Reference** - Detailed documentation of methods and modeling approach: [`docs/technical_reference.html`](docs/technical_reference.html) or [`technical_reference.pdf`](technical_reference.pdf)
+
+## Modeling Workflow
+
+The full modeling workflow and code will be [here]() once the paper is accepted.
+
+## Citation
+
+If you use materials from this repository, please cite the associated manuscript.
