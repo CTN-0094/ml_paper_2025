@@ -2,21 +2,24 @@
 title: "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder"
 ---
 
-## Web Supplement and Technical Reference
+This site provides supplementary materials for the manuscript by Raymond R. Balise, Kyle Grealis, Guertson Jean-Baptiste, and the CTN-0094 Team. Use the **Supplementary Materials** menu above or the links below.
 
-This repository contains the web supplement and technical reference materials for the manuscript "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder" by Raymond R. Balise, Kyle Grealis, Guertson Jean-Baptiste, and the CTN-0094 Team.
+## Web Supplement
 
-## Contents
+A companion guide to the manuscript that explains the machine learning methods, walks through the complete analysis workflow, and provides annotated R code. Designed to be accessible whether you're new to ML or an experienced practitioner.
 
-- **Web Supplement** - Supplementary analyses, figures, and tables: [`docs/supplement.html`](docs/supplement.html)
-  - Live site: <https://ctn-0094.github.io/ml_paper_2025/supplement.html>
-- **Technical Reference** - Detailed documentation of methods and modeling approach: [`docs/technical_reference.html`](docs/technical_reference.html) or [`technical_reference.pdf`](technical_reference.pdf)
-  - Live site: <https://ctn-0094.github.io/ml_paper_2025/technical_reference.html>
+[View Web Supplement](supplement.html)
+
+## Technical Reference
+
+Detailed documentation of the study's inclusion criteria, variables/features used in the models, training/testing split methodology, and model specifications.
+
+[View Technical Reference](technical_reference.html) | [Download PDF](technical_reference.pdf)
 
 ## Modeling Workflow
 
-The full modeling workflow and code will be [here]() once the paper is accepted.
+The complete modeling workflow and code will be available [here]() once the manuscript is accepted for publication.
 
 ## Citation
 
-If you use materials from this repository, please cite the associated manuscript.
+If you use materials from this site, please cite the associated manuscript.

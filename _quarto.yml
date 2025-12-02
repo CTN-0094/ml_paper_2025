@@ -3,9 +3,6 @@ project:
   output-dir: docs
   render:
     - index.qmd
-  resources:
-    - supplement.html
-    - technical_reference.html
 
 website:
   title: "CTN-0094 ML Paper"
@@ -13,7 +10,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Documentation
+      - text: Supplementary Materials
         menu:
           - href: supplement.html
             text: Web Supplement

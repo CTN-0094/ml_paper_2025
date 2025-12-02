@@ -4,34 +4,34 @@
     "href": "index.html",
     "title": "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder",
     "section": "",
-    "text": "This repository contains the web supplement and technical reference materials for the manuscript “Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder” by Raymond R. Balise, Kyle Grealis, Guertson Jean-Baptiste, and the CTN-0094 Team."
+    "text": "This site provides supplementary materials for the manuscript by Raymond R. Balise, Kyle Grealis, Guertson Jean-Baptiste, and the CTN-0094 Team. Use the Supplementary Materials menu above or the links below."
   },
   {
-    "objectID": "index.html#web-supplement-and-technical-reference",
-    "href": "index.html#web-supplement-and-technical-reference",
+    "objectID": "index.html#web-supplement",
+    "href": "index.html#web-supplement",
     "title": "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder",
-    "section": "",
-    "text": "This repository contains the web supplement and technical reference materials for the manuscript “Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder” by Raymond R. Balise, Kyle Grealis, Guertson Jean-Baptiste, and the CTN-0094 Team."
+    "section": "Web Supplement",
+    "text": "Web Supplement\nA companion guide to the manuscript that explains the machine learning methods, walks through the complete analysis workflow, and provides annotated R code. Designed to be accessible whether you’re new to ML or an experienced practitioner.\nView Web Supplement"
   },
   {
-    "objectID": "index.html#contents",
-    "href": "index.html#contents",
+    "objectID": "index.html#technical-reference",
+    "href": "index.html#technical-reference",
     "title": "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder",
-    "section": "Contents",
-    "text": "Contents\n\nWeb Supplement - Supplementary analyses, figures, and tables: docs/supplement.html\n\nLive site: https://ctn-0094.github.io/ml_paper_2025/supplement.html\n\nTechnical Reference - Detailed documentation of methods and modeling approach: docs/technical_reference.html or technical_reference.pdf\n\nLive site: https://ctn-0094.github.io/ml_paper_2025/technical_reference.html"
+    "section": "Technical Reference",
+    "text": "Technical Reference\nDetailed documentation of the study’s inclusion criteria, variables/features used in the models, training/testing split methodology, and model specifications.\nView Technical Reference | Download PDF"
   },
   {
     "objectID": "index.html#modeling-workflow",
     "href": "index.html#modeling-workflow",
     "title": "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder",
     "section": "Modeling Workflow",
-    "text": "Modeling Workflow\nThe full modeling workflow and code will be here once the paper is accepted."
+    "text": "Modeling Workflow\nThe complete modeling workflow and code will be available here once the manuscript is accepted for publication."
   },
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
     "title": "Applying Machine Learning in Predicting Medication Treatment Outcomes for Opioid Use Disorder",
     "section": "Citation",
-    "text": "Citation\nIf you use materials from this repository, please cite the associated manuscript."
+    "text": "Citation\nIf you use materials from this site, please cite the associated manuscript."
   }
 ]
