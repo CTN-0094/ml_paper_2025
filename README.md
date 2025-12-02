@@ -7,7 +7,9 @@ This repository contains the web supplement and technical reference materials fo
 ## Contents
 
 - **Web Supplement** - Supplementary analyses, figures, and tables: [`docs/supplement.html`](docs/supplement.html)
+  - Live site: <https://ctn-0094.github.io/ml_paper_2025/supplement.html>
 - **Technical Reference** - Detailed documentation of methods and modeling approach: [`docs/technical_reference.html`](docs/technical_reference.html) or [`technical_reference.pdf`](technical_reference.pdf)
+  - Live site: <https://ctn-0094.github.io/ml_paper_2025/technical_reference.html>
 
 ## Modeling Workflow
 
