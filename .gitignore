@@ -153,3 +153,4 @@ _site/
 docs/*.rds
 docs/*.csv
 docs/data/
+**/*.quarto_ipynb

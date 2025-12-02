@@ -1,6 +1,24 @@
 project:
-  type: default
+  type: website
   output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - supplement.html
+    - technical_reference.html
+
+website:
+  title: "CTN-0094 ML Paper"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Documentation
+        menu:
+          - href: supplement.html
+            text: Web Supplement
+          - href: technical_reference.html
+            text: Technical Reference
 
 format:
   html:
@@ -13,7 +31,6 @@ format:
     code-line-numbers: true
     fig-width: 8
     fig-height: 6
-    embed-resources: true
     
 # Enhanced security exclusions
 project-exclude:
